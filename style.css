@@ -1,0 +1,353 @@
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.flex1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.white{
+    color: white;
+}
+
+.head1{ 
+    padding-left: 110px ;
+    padding-top: 60px;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+}
+
+.tasks{
+    font-weight:900;
+}
+.white1{
+    color: #ffffffb8;
+    
+}
+
+.right{
+    padding-right: 160px;
+    padding-top: 60px;
+}
+
+.button1{
+    border-radius: 50%;
+    background-color:  #2196f3d4;
+    border: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.add1{
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    right: 7rem;
+    top: 5rem;
+}
+
+.container{
+    position: relative;
+    top: 50px;
+    left: 110px;
+    font-size: 1.5em;
+    font-family: 'Roboto', sans-serif;
+}
+
+.containerHead{
+   display: flex;
+   justify-content: center;
+}
+
+.container1{
+    display: flex;
+    position: relative;
+    top: 50px;
+    width: 80%;
+    /* left: 110px; */
+    /* right: 110px; */
+    /* margin-left: 110px;
+    margin-right: 110px; */
+    /* justify-content: center; */
+    justify-content: space-between; 
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 240px;
+    margin: 20px;
+    height: 300px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+/* .card:hover{
+    box-shadow: 0px 1px 6px 3px;
+} */
+
+.ftext1{
+    padding-top: 20px;
+    color: coral;
+    overflow: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+
+.addlist{
+   position: fixed;
+   top:45%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   z-index: 999;
+   display: none ;
+}
+.popup1{
+    background-color: white;
+    font-size: 1.2rem;
+    height: 180px;
+    width: 350px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto';
+    z-index: 2;
+    box-shadow: 0px 0px 20px 1000px #212121db;
+   
+}
+
+.text1{
+    color : red;
+    text-align: center;
+    padding-top: 0.8rem;
+}
+
+.ppt{
+    background-color: orangered;
+    color: wheat;
+    border-radius: 10px;
+    height: 2rem;
+   width: 3.5rem;
+   border: none;
+}
+
+.ppt:hover{
+    background-color: #688844;
+    box-shadow: 6px 4px 4px 0px;
+}
+
+
+.input1{
+    text-align: center;
+    width: 250px;
+    height: 1.5rem;
+    border: 1px solid black;
+}
+
+.bflex{
+    display: flex;
+    justify-content: space-around;
+    width: 180px;
+}
+
+
+
+.delb{
+    position: relative;  /* updated */
+    bottom: 5px;
+    /* right: 70px; */
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    border: 1px solid red;
+}
+
+
+
+.plusbutn{
+    position: relative;  /* updated */
+    bottom: 5px;
+    /* right: 20px; */
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 50%;
+    border: 1px solid blue;
+}
+
+
+
+.addlist2{
+    position: fixed;
+    top:45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none ;
+ }
+
+
+ .spaceItem{
+    color: black;
+    padding: 5px;
+ }
+
+ .task1{
+    /* padding: 10px; */
+    position: relative;   /* updated */
+    bottom: 20px;
+    height: 200px;
+    /* display: flex;            */
+    overflow: auto;
+    width: 240px;
+}
+
+ .btnspace{
+    height: 30px;     /* updated */
+}
+
+ul{                                     /* updated */
+    /* color: black;
+    list-style-type: none;
+    text-align: start; */
+    color: black;
+    list-style-type: none;
+    text-align: center;
+    padding-left: 0;
+}
+
+
+.checked{
+    text-decoration: line-through;
+    color: red;
+}
+
+
+
+.vanish2{
+    display: none;
+}
+
+.arr{
+    border: none;
+    border-radius: 50%;
+    font-size: 1.5rem;
+}
+
+
+.cardHeading{
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    top: 3rem;
+}
+
+.buttonPosition{
+    position: absolute;
+    right: 14rem;
+    top: 5rem;
+}
+
+.displayJustCard{
+    margin: auto;
+    position: relative;
+}
+
+.back{
+    display: none;
+    position: absolute;
+    top: 5rem;
+    left: 8rem;
+    font-size: 1.5rem;
+}
+
+
+
+.addlist3{
+    position: fixed;
+    top:45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none ;
+    z-index: 999;
+ }
+
+ li{
+    padding-bottom: 5px;
+    font-size: 1.3rem;
+ }
+
+ .No{
+    font-size: 1.5rem;
+ }
+
+
+ @media screen and (min-width:290px) and (max-width:600px) {
+
+    .head1{
+        position: absolute;
+       padding-top: 2rem;
+    }
+    .right{
+        position: static;
+    padding-left: 7rem;
+    padding-top: 6rem;
+    padding-right: 0%;
+    }
+    .add1{
+        position: static;
+    }
+    .buttonPosition{
+        position: static;
+    }
+    .container1{
+        top: 0px;
+        padding-top: 2rem;
+    }
+    .back{
+        top: 2rem;
+        left: 10rem;
+    }
+ }
+
+
+ @media screen and (max-width:290px) {
+    .head1{
+        position: absolute;
+       padding-top: 2rem;
+       padding-left: 70px
+    }
+    .right{
+        position: static;
+        padding-left: 5rem;
+        padding-top: 5rem;
+        padding-right: 0%;
+    }
+    .add1{
+        position: static;
+    }
+    .buttonPosition{
+        position: static;
+    }
+    .container1{
+        top: 0px;
+    }
+    .back{
+        top: 2rem;
+    left: 7rem;
+    }
+
+
+ }
+    
